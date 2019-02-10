@@ -176,7 +176,7 @@ h5 {
 }
 
 
-/* ROW STYLE */
+/* OUR MISSION STYLE */
 
 .our-mission {
   margin: 80px 0px 80px 0px;
@@ -189,7 +189,6 @@ h5 {
   background-image: url("images/join-team-image.png");
   height: 420px;
   width: 100%;
-  position: absolute;
   background-size: cover;
 }
 
@@ -203,11 +202,9 @@ h5 {
   background-color: #EFEFEF;
   height: 750px;
   width: 100%;
+  background-size: cover;
 }
 
-.social-media-container {
-  background-color: black;
-}
 
 .social-media-row {
   padding: 60px 0px 0px 0px;
@@ -227,12 +224,11 @@ h5 {
   background-image: url("images/our-impact-image.png");
   height: 380px;
   width: 100%;
-  position: absolute;
   background-size: cover;
 }
 
 .our-impact-row {
-  margin: 90px 0px 40px 0px;
+  padding: 90px 0px 40px 0px;
 }
 
 #our-impact-h2 {
@@ -283,15 +279,15 @@ h5 {
   justify-content: center;
 }
 
-.card {
+.support-card {
   border: none;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.342) ;
-  margin: 0px 30px 0px 30px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.342) ;
+  margin: 0px 30px 80px 30px;
   background: #F1F1F1;
   height: 500px;
 }
 
-#card-text {
+#support-text {
   text-align: left;
   padding: 0px 0px 10px 15px;
 }
@@ -305,7 +301,7 @@ h5 {
 }
 
 .support-row {
-  margin: 130px 0px 50px 0px;
+  padding: 80px 0px 50px 0px;
 }
 
 .support-row h2 { 
@@ -338,6 +334,21 @@ h5 {
   font-family: 'Open Sans', sans-serif;
   margin: 20px;
 }
+
+/* TESTIMONIALS */
+
+.testimonial {
+  background-image: url("images/testimonials/testimonial-background.png");
+  height: 1000px;
+  width: 100%;
+  background-size: cover;
+}
+
+.testimonial-row {
+  margin: 90px 0px 40px 0px;
+}
+
+
 
 
 
