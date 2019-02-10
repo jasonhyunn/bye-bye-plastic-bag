@@ -1,0 +1,356 @@
+/* FONT STYLE */
+
+h1 {
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  line-height: 50px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  color: rgb(202, 202, 202);
+  font-weight: 400;
+}
+
+h4 {
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(128, 128, 128);
+    font-weight: 400;
+    line-height: 35px;
+}
+
+h5 {
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  color:white;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 13px;
+  font-family: 'Nunito', sans-serif;
+  color: rgb(209, 209, 209);
+  font-weight: 400;
+}
+
+/* HEADER */
+
+.black-bg {
+  background: black;
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 850px;
+  /* same height as jumbotron */
+  top: 0;
+  left: 0;
+  z-index: -5;
+}
+
+.bg-main-home {
+    background: url("images/home-hero-image.png") no-repeat center top;
+    opacity: 0.8;
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 850px;
+    /* same height as jumbotron */
+    top: 0;
+    left: 0;
+    z-index: -5;
+  }
+
+.jumbotron {
+    margin-bottom: 50px;
+    height: 850px;
+    padding: 20px 0px 20px 0px;
+    background: transparent;
+    color: white;
+}
+
+/* BUTTON STYLE */
+
+.btn-link {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 8px 25px 8px 25px;
+}
+
+.btn-link:hover {
+  color: #EC1668;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  padding: 8px 25px 8px 25px;
+}
+
+.btn-link:active {
+  color: #EC1668;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  padding: 8px 25px 8px 25px;
+}
+
+.btn-donation {
+    color: white;
+    background-color: #EC1668;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 10px 0px 35px;
+}
+
+.btn-donation:hover {
+  color: white;
+  background-color: rgb(230, 103, 152);
+  padding: 8px 15px 8px 15px;
+  border: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px 10px 0px 35px;
+}
+
+.btn-learn-more {
+  color: white;
+  background-color: #EC1668;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 40px;
+}
+
+.btn-learn-more:hover {
+  color: white;
+  background-color: rgb(230, 103, 152);
+  padding: 8px 15px 8px 15px;
+  border: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 40px;
+}
+
+.nav-search {
+    margin: 10px 0px 0px 35px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-search:hover {
+  margin: 10px 0px 0px 35px;
+  display: inline-block;
+  color: rgb(230, 103, 152);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.large-header {
+    text-align: center;
+    margin-top: 140px;
+}
+
+
+/* ROW STYLE */
+
+.our-mission {
+  margin: 80px 0px 80px 0px;
+}
+
+
+/* JOIN A OR START A TEAM STYLE */
+
+.join-start {
+  background-image: url("images/join-team-image.png");
+  height: 420px;
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+}
+
+.join-start-row {
+  padding: 50px 0px 35px 0px;
+}
+
+/* SOCIAL MEDIA STYLE */
+
+.social-media {
+  background-color: #EFEFEF;
+  height: 750px;
+  width: 100%;
+}
+
+.social-media-container {
+  background-color: black;
+}
+
+.social-media-row {
+  padding: 60px 0px 0px 0px;
+}
+
+.social-media-row h2 { 
+  line-height: 30px;
+}
+
+.instagram {
+  margin: 0px 17px 30px 17px;
+}
+
+/* OUR IMPACT */
+
+.our-impact {
+  background-image: url("images/our-impact-image.png");
+  height: 380px;
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+}
+
+.our-impact-row {
+  margin: 90px 0px 40px 0px;
+}
+
+#our-impact-h2 {
+  color: #EC1668;
+  font-size: 28px;
+  font-family: 'Nunito', sans-serif;
+}
+
+#our-impact-h4-1 {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  text-align: left;
+  margin: 0px 0px 0px 50px;
+}
+
+#our-impact-h4-2 {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  text-align: left;
+  margin: 0px 0px 0px 30px;
+}
+
+#our-impact-h4-3 {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  text-align: left;
+  margin: 0px 0px 0px 37px;
+}
+
+#our-impact-h4-4 {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  text-align: left;
+  margin: 0px 0px 0px 38px;
+}
+
+/* SUPPORT STYLE */
+
+.card-deck {
+  justify-content: center;
+}
+
+.card {
+  border: none;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.342) ;
+  margin: 0px 30px 0px 30px;
+  background: #F1F1F1;
+  height: 500px;
+}
+
+#card-text {
+  text-align: left;
+  padding: 0px 0px 10px 15px;
+}
+
+.card h2 {
+  line-height: 30px;
+}
+
+.card h4 {
+  line-height: 30px;
+}
+
+.support-row {
+  margin: 130px 0px 50px 0px;
+}
+
+.support-row h2 { 
+  line-height: 30px;
+}
+
+.support-card img {
+  margin: 30px 0px 0px 33px;
+  border: none;
+}
+
+.btn-support {
+  color: white;
+  background-color: #EC1668;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px;
+}
+
+.btn-support:hover {
+  color: white;
+  background-color: rgb(230, 103, 152);
+  padding: 8px 15px 8px 15px;
+  border: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px;
+}
+
+
+
+
+/* @media (max-width: 768px) {
+    .jumbotron nav {
+      display: none !important;
+    }
+
+  }
+  
+  @media (min-width: 768px) {
+    .small-header {
+      display: none;
+    }
+   } */
