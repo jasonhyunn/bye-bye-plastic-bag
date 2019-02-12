@@ -1,0 +1,8 @@
+
+.jumbotron {
+    margin-bottom: 50px;
+    height: 850px;
+    padding: 20px 0px 20px 0px;
+    background: transparent;
+    color: white;
+}

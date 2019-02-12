@@ -22,13 +22,25 @@
     <!-- font-family: 'Nunito', sans-serif; -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800" rel="stylesheet">
 
+    <!-- AOA Scroll Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Bye Bye Plastic Bags</title>
   </head>
   <body>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
     <!-- HEADER -->
+    <!-- <div class="black-bg"></div>
+    <div class="bg-main-home"></div> -->
+
     <div class="black-bg"></div>
-    <div class="bg-main-home"></div>
+    <div class="parallax"></div>
 
     <div class="jumbotron jumbotron-fluid">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -70,24 +82,25 @@
                     </ul>
                 </div>
         </nav>
-        <div class="large-header">
+        <div class="large-header col-md-12 text-md-center col-sm-12" id="large-header">
             <h1>SAVING THE WORLD ONE BAG AT A TIME</h1>
             <br>
             <h3>A movement powered by youth around the world to say NO to plastic bags</h3>
+            <i class="fas fa-chevron-down slide-bottom"></i>
         </div>
     </div>
 
     <!-- OUR MISSION -->
 <div class="our-mission">
     <div class="container">
-        <div class="row ">
-            <div class="col-md-5 col-sm">
+        <div class="row">
+            <div class="col-md-5 col-sm-6" data-aos="fade-right">
                 <h2>Our Mission</h2>
                 <h4>We envision a world free of plastic bags and where the young generation are empowered to take action. Our mission is to empower people to do what is right through education, campaigns, and political meetings. Start making that difference one bag at a time.</h4>
-                <button type="button" class="btn btn-learn-more">Learn more</button>
+                <button type="button" class="btn btn-learn-more" data-aos="fade-right">Learn more</button>
             </div>
-            <div class="col-md-7 col-sm">
-                <div class="embed-responsive embed-responsive-16by9">
+            <div class="col-md-7 col-sm-6">
+                <div class="embed-responsive embed-responsive-16by9" data-aos="fade-left">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Y6Z5eOv6Nnk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
@@ -99,10 +112,10 @@
 <div class="join-start">
     <div class="container">
         <div class="row join-start-row">
-            <div class="col-md-6 col-sm">
+            <div class="col-md-5 col-sm-" data-aos="fade-right">
                 <img src="images/start-a-team-image.png" class="img-fluid" alt="start-a-team-image">
             </div>
-            <div class="col-md-6 col-sm">
+            <div class="col-md-7 col-sm" data-aos="fade-left">
                 <h2>JOIN OR START YOUR OWN TEAM</h2>
                 <h4>Spread the movement by joining or starting your own team and help your community say NO to plastic bags. We can help you build your own team or start one at your school!</h4>
                 <button type="button" class="btn btn-learn-more">Join a team</button>
@@ -116,26 +129,26 @@
     <div class="social-media">
 
         <div class="container">
-            <div class="text-center social-media-row">
+            <div class="text-center social-media-row" data-aos="fade-up">
                 <h2>WE WANT TO HEAR FROM YOU</h2>
                 <h4>Take a photo and use <span style="color:#EC1668; font-weight:700">#byebyeplasticbags</span> to share your posts!</h4>
             </div>
 
             <div class="col-md-12 col-sm text-center social-media-row">
-                <img src="images/instagram-1.png" class="img-fluid instagram" alt="instagram-1">
-                <img src="images/instagram-2.png" class="img-fluid instagram" alt="instagram-2">
-                <img src="images/instagram-3.png" class="img-fluid instagram" alt="instagram-3">
-                <img src="images/instagram-4.png" class="img-fluid instagram" alt="instagram-4">
-                <img src="images/instagram-5.png" class="img-fluid instagram" alt="instagram-5">
-                <img src="images/instagram-6.png" class="img-fluid instagram" alt="instagram-6">
-                <img src="images/instagram-7.png" class="img-fluid instagram" alt="instagram-7">
-                <img src="images/instagram-8.png" class="img-fluid instagram" alt="instagram-8">
-                <img src="images/instagram-9.png" class="img-fluid instagram" alt="instagram-9">
-                <img src="images/instagram-10.png" class="img-fluid instagram" alt="instagram-10">
+                <img src="images/instagram-1.png" class="img-fluid instagram" data-aos="fade-up" alt="instagram-1">
+                <img src="images/instagram-2.png" class="img-fluid instagram" data-aos="fade-up" alt="instagram-2">
+                <img src="images/instagram-3.png" class="img-fluid instagram" data-aos="fade-up" alt="instagram-3">
+                <img src="images/instagram-4.png" class="img-fluid instagram" data-aos="fade-up" alt="instagram-4">
+                <img src="images/instagram-5.png" class="img-fluid instagram" data-aos="fade-up" alt="instagram-5">
+                <img src="images/instagram-6.png" class="img-fluid instagram" data-aos="fade-up" alt="instagram-6">
+                <img src="images/instagram-7.png" class="img-fluid instagram" data-aos="fade-up" alt="instagram-7">
+                <img src="images/instagram-8.png" class="img-fluid instagram" data-aos="fade-up" alt="instagram-8">
+                <img src="images/instagram-9.png" class="img-fluid instagram" data-aos="fade-up" id="instagram-9" alt="instagram-9">
+                <img src="images/instagram-10.png" class="img-fluid instagram" data-aos="fade-up" id="instagram-10" alt="instagram-10">
             </div>
 
             <div class="text-center">
-                <button type="button" class="btn btn-learn-more"><i class="fab fa-instagram"></i> Follow on Instagram</button>
+                <button type="button" class="btn btn-learn-more-instagram" data-aos="fade-up"><i class="fab fa-instagram"></i> Follow on Instagram</button>
             </div>
         </div>
     </div>
@@ -149,32 +162,32 @@
         </div>
         <div class="container text-center">
             <div class="row">
-                <div class="col-md-3 col-sm">
+                <div class="col-md-3 col-sm-12" data-aos="fade-right">
                     <h2 id="our-impact-h2">25</h2>
                 </div>
-                <div class="col-md-3 col-sm">
+                <div class="col-md-3 col-sm-12" data-aos="fade-right">
                     <h2 id="our-impact-h2">231</h2>
                 </div>
-                <div class="col-md-3 col-sm">
+                <div class="col-md-3 col-sm-12" data-aos="fade-left">
                     <h2 id="our-impact-h2">1,750</h2>
                 </div>
-                <div class="col-md-3 col-sm">
+                <div class="col-md-3 col-sm-12" data-aos="fade-left">
                     <h2 id="our-impact-h2">16,800</h2>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm">
+                <div class="col-md-3 col-sm-3" data-aos="fade-right">
                     <h4 id="our-impact-h4-1">Global Teams</h4>
                 </div>
-                <div class="col-md-3 col-sm">
+                <div class="col-md-3 col-sm-3" data-aos="fade-right">
                     <h4 id="our-impact-h4-2">Total Events Spoken</h4>
                 </div>
-                <div class="col-md-3 col-sm">
+                <div class="col-md-3 col-sm-3" data-aos="fade-left">
                     <h4 id="our-impact-h4-3">Educational Booklets <br>Donated to Schools</h4>
                 </div>
-                <div class="col-md-3 col-sm">
+                <div class="col-md-3 col-sm-3" data-aos="fade-left">
                     <h4 id="our-impact-h4-4">Alternative Bags Given <br>to Local Communities</h4>
                 </div>
             </div>
@@ -183,27 +196,27 @@
 
     <!-- YOUR SUPPORT MATTERS -->        
     <div class="container">
-        <div class="text-center support-row">
+        <div class="text-center support-row" data-aos="fade-up">
             <h2>YOUR SUPPORT MATTERS</h2>
             <h4>Check our our shop or make a donation!</h4>
         </div>
-        <div class="container d-flex justify-content-center">
+        <div class="container d-flex justify-content-center"  data-aos="fade-up">
             <div class="row">
-                <div class="card support-card" style="width: 25rem;">
+                <div class="card support-card text-center" style="width: 25rem;">
                     <img src="images/shop-image.png" class="card-img-top" style="width:85%; height:40%;" alt="shop-image">
                     <div class="card-body">
                         <h2 class="card-title">SHOP</h2>
                         <h4 id="support-text">All the profits from this shop go back into our youth driven NGO. Support us while enjoying some of our latest designs!</h4>
-                        <button type="button" class="btn btn-support">Shop now</button>
+                        <button type="button" class="btn btn-support">Shop</button>
                     </div>
                 </div>
 
-                <div class="card support-card" style="width: 25rem;">
+                <div class="card support-card text-center" style="width: 25rem;" data-aos="fade-up">
                     <img src="images/donate-image.png" class="card-img-top" style="width:85%; height:40%;" alt="donate-image">
                     <div class="card-body">
                         <h2 class="card-title">DONATE</h2>
                         <h4 id="support-text">Our mission is funded 100% by awesome people like you! Any amount helps us <br>clean beaches and the world.</h4>
-                        <button type="button" class="btn btn-support">Donate now</button>
+                        <button type="button" class="btn btn-support">Donate</button>
                     </div>
                 </div>
             </div>
@@ -211,25 +224,179 @@
     </div>
  
 
-        <!-- TESTIMONIALS -->
-        <div class="testimonial">
-        
-            <div class="container">
-                <div class="row testimonial-row">
-                    <div class="col-md-6 col-sm">
-                        <img src="images/testimonials/testimonials-1.png" class="img-fluid" alt="testimonial-1">
+    <!-- TESTIMONIALS -->
+    <div class="testimonial">
+        <div class="container">
+            <div class="text-center testimonial-text-wrap" data-aos="fade-up">
+                <h2>TESTIMONIALS</h2>
+                <h4>What people have been saying about us!</h4>
+            </div>
+            <div class="row testimonial-row" data-aos="fade-up">
+                <div class="col-md-4">
+                    <div class="card-deck">
+                        <div class="card testimonial-card">
+                        <img src="images/testimonials/testimonials-1.png" style="width:135px; height:45px;" class="card-img-top" alt="...">
+                        <div class="card-body testimonial-card-body">
+                            <h4 class="testimonial-card-body">Top Ten Most Inspiring Women.</h4>
+                        </div>
+                        </div>
                     </div>
-    
+                </div>
+                <div class="col-md-4">
+                    <div class="card-deck">
+                        <div class="card testimonial-card" >
+                        <img src="images/testimonials/testimonials-2.png" style="width:155px; height:45px;" class="card-img-top" alt="...">
+                        <div class="card-body testimonial-card-body">
+                            <h4 class="testimonial-card-body">Bali’s eco-entrepreneurs are making Indonesia a better place.</h4>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-deck">
+                        <div class="card testimonial-card" >
+                        <img src="images/testimonials/testimonials-3.png" style="width:100px; height:45px;" class="card-img-top" alt="...">
+                        <div class="card-body testimonial-card-body">
+                            <h4 class="testimonial-card-body">The teenagers getting plastic bags banned in Indonesia.</h4>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="container">
+            <div class="row testimonial-row" id="testimonial-row" data-aos="fade-up">
+                <div class="col-md-4">
+                    <div class="card-deck">
+                        <div class="card testimonial-card-bottom" >
+                        <img src="images/testimonials/testimonials-4.png" style="width:135px; height:45px;" class="card-img-top" alt="...">
+                        <div class="card-body testimonial-card-body">
+                            <h4 class="testimonial-card-body">With all the excitement and hype around Crazy Rich Asians, we couldn’t help but put a light on some crazy GREEN Asian who are using their power for the good fight as eco warriors.</h4>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-deck">
+                        <div class="card testimonial-card-bottom" >
+                        <img src="images/testimonials/testimonials-5.png" style="width:155px; height:45px;" class="card-img-top" alt="...">
+                        <div class="card-body testimonial-card-body">
+                            <h4 class="testimonial-card-body">Gandhi once said, “Be the change that you wish to see in the world.” These kids are doing their part by working toward the manifestation of those positive changes. It is now our turn to do so.</h4>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-deck">
+                        <div class="card testimonial-card-bottom" >
+                        <img src="images/testimonials/testimonials-6.png" style="width:220px; height:45px;" class="card-img-top" alt="...">
+                        <div class="card-body testimonial-card-body">
+                            <h4 class="testimonial-card-body">Convincing Bali’s powers-that-be to follow through on their promises is the next big challenge, but based on the groundswell of support for the BBPB campaign and the sisters’ determination to see it through, they’ll be up for the fight.</h4>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>         
+    </div>
+
+    <!-- SPONSORS -->
+    <div class="sponsor">
+            <div class="container">
+                <div class="text-center sponsor-row"  data-aos="fade-up">
+                    <h2>SPONSORS</h2>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center" data-aos="fade-up">
+                <img src="images/Sponsors/18.png" style="width:150px; height:50px;" class="card-img-top-sponsors" id="sponsors-18" alt="...">
+                <img src="images/Sponsors/19.png" style="width:70px; height:50px;" class="card-img-top-sponsors" id="sponsors-19" alt="...">
+                <img src="images/Sponsors/20.png" style="width:150px; height:50px;" class="card-img-top-sponsors" id="sponsors-20" alt="...">
+                <img src="images/Sponsors/21.png" style="width:60px; height:50px;" class="card-img-top-sponsors" id="sponsors-21" alt="...">
+                <img src="images/Sponsors/22.png" style="width:150px; height:35px;" class="card-img-top-sponsors" id="sponsors-22" alt="...">
+            </div>
+    </div>
+
+    <!-- PARTNERS -->
+    <div class="partner">
+            <div class="container">
+                <div class="text-center partner-row"  data-aos="fade-up">
+                    <h2>PARTNER</h2>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center" data-aos="fade-up">
+                <img src="images/Partners/1.png" style="width:150px; height:50px;" class="card-img-top-partners" id="partners-1" alt="partners-1">
+                <img src="images/Partners/2.png" style="width:70px; height:50px;" class="card-img-top-partners" id="partners-2" alt="partners-2">
+                <img src="images/Partners/3.png" style="width:70px; height:50px;" class="card-img-top-partners" id="partners-3" alt="partners-3">
+                <img src="images/Partners/4.png" style="width:70px; height:50px;" class="card-img-top-partners" id="partners-4" alt="partners-4">
+                <img src="images/Partners/5.png" style="width:120px; height:40px;" class="card-img-top-partners" id="partners-5" alt="partners-5">
+                <img src="images/Partners/6.png" style="width:70px; height:50px;" class="card-img-top-partners" id="partners-6" alt="partners-6">
+                <img src="images/Partners/7.png" style="width:70px; height:50px;" class="card-img-top-partners" id="partners-7" alt="partners-7">
+                <img src="images/Partners/8.png" style="width:70px; height:50px;" class="card-img-top-partners" id="partners-8" alt="partners-8">
+            </div>
+            <div class="d-flex justify-content-center" data-aos="fade-up">
+                <img src="images/Partners/9.png" style="width:60px; height:50px;" class="card-img-top-partners" id="partners-9"  alt="partners-9">
+                <img src="images/Partners/10.png" style="width:70px; height:50px;" class="card-img-top-partners" id="partners-10" alt="partners-10">
+                <img src="images/Partners/11.png" style="width:70px; height:50px;" class="card-img-top-partners" id="partners-12" alt="partners-11">
+                <img src="images/Partners/12.png" style="width:70px; height:50px;" class="card-img-top-partners" id="partners-12" alt="partners-12">
+                <img src="images/Partners/13.png" style="width:70px; height:50px;" class="card-img-top-partners" id="partners-13" alt="partners-13">
+                <img src="images/Partners/14.png" style="width:70px; height:50px;" class="card-img-top-partners" id="partners-14" alt="partners-14">
+                <img src="images/Partners/15.png" style="width:70px; height:50px;" class="card-img-top-partners" id="partners-15" alt="partners-5">
+                <img src="images/Partners/16.png" style="width:70px; height:50px;" class="card-img-top-partners" id="partners-16" alt="partners-16">
+                <img src="images/Partners/17.png" style="width:70px; height:50px;" class="card-img-top-partners" id="partners-17" alt="partners-17">
+            </div>
+    </div>
 
 
-
-
-   
-
-
-
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-2 col-sm-2">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" width="95px" height="95px" class="d-inline-block align-top" alt="logo"></a>
+                </div>
+                <div class="col-md-1 col-sm-2 text-left">
+                    <h4>HOME</h4>
+                    <h4>ABOUT</h4>
+                    <h4>TEAM</h4>
+                    <h4>PROJECT</h4>
+                </div>
+                <div class="col-md-1 col-sm-2 text-left">
+                    <h4>STORE</h4>
+                    <h4>MEDIA</h4>
+                    <h4>CONTACT</h4>
+                </div>
+                <div class="col-md-5 col-sm-2 text-left">
+                    <h2>NEWSLETTER</h2>
+                    <h4 id="newsletter">Keep in the loop with latest news from our sponsors and updates on all our projects.</h4>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="Email" placeholder="Email" aria-label="email">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-chevron-right"></i></button>
+                    </form>
+                </div>
+                <div class="col-md-3 col-sm-3 text-right">
+                    <button type="button" class="btn btn-footer-donate">Donate</button>
+                    <button type="button" class="btn btn-footer-startateam">Start a Team</button>
+                </div>
+            </div>
+            <div class="container">
+                    <div class="row footer-copyright">
+                        <div class="col-md-3 col-sm-3 text-md-left text-sm-center">
+                             <a class="nav-copyright"><i class="far fa-copyright fa-xs"></i> 2018 Jason Hyun</a>
+                        </div>
+                         
+                         <div class="col-md-9 col-sm-3 text-md-right text-sm-center">
+                             <i class="far fa-envelope" id="social-icon"></i>
+                             <i class="fab fa-facebook-f"id="social-icon"></i>
+                             <i class="fab fa-instagram" id="social-icon"></i>
+                             <i class="fab fa-youtube" id="social-icon"></i>
+                             <i class="fab fa-twitter" id="social-icon"></i>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
     
 
     <!-- Optional JavaScript -->
@@ -237,6 +404,13 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        AOS.init({
+            duration: 1200,
+        });
+
+    </script>
     <script src="script.js"></script>
   </body>
 </html> 
