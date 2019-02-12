@@ -45,7 +45,7 @@
     <div class="jumbotron jumbotron-fluid">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <button onclick="myFunction()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href="#"><img src="images/logo.png" width="95" height="95" class="d-inline-block align-top" alt="logo"></a>
@@ -82,7 +82,7 @@
                     </ul>
                 </div>
         </nav>
-        <div class="large-header col-md-12 text-md-center col-sm-12" id="large-header">
+        <div class="large-header col-md-12 text-md-center col-sm-12" id="myDIV">
             <h1>SAVING THE WORLD ONE BAG AT A TIME</h1>
             <br>
             <h3>A movement powered by youth around the world to say NO to plastic bags</h3>
@@ -365,15 +365,17 @@
                     <h4>MEDIA</h4>
                     <h4>CONTACT</h4>
                 </div>
-                <div class="col-md-5 col-sm-2 text-left">
+                <div class="col-md-5 text-md-left">
                     <h2>NEWSLETTER</h2>
                     <h4 id="newsletter">Keep in the loop with latest news from our sponsors and updates on all our projects.</h4>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="Email" placeholder="Email" aria-label="email">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-chevron-right"></i></button>
+                    <form>
+                    <div class="form-group ">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> 
+                        <button type="submit" class="btn btn-learn-more-submit">Submit</button>
+                    </div>
                     </form>
                 </div>
-                <div class="col-md-3 col-sm-3 text-right">
+                <div class="col-md-3 col-sm-3 text-center">
                     <button type="button" class="btn btn-footer-donate">Donate</button>
                     <button type="button" class="btn btn-footer-startateam">Start a Team</button>
                 </div>
@@ -381,7 +383,7 @@
             <div class="container">
                     <div class="row footer-copyright">
                         <div class="col-md-3 col-sm-3 text-md-left text-sm-center">
-                             <a class="nav-copyright"><i class="far fa-copyright fa-xs"></i> 2018 Jason Hyun</a>
+                             <a class="nav-copyright"><i class="far fa-copyright fa-xs"></i> 2019 Jason Hyun</a>
                         </div>
                          
                          <div class="col-md-9 col-sm-3 text-md-right text-sm-center">
@@ -404,13 +406,13 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
+<!-- 
     <script type="text/javascript">
         AOS.init({
             duration: 1200,
         });
+    </script> -->
 
-    </script>
     <script src="script.js"></script>
   </body>
 </html> 

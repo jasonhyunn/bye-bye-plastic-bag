@@ -1,6 +1,12 @@
-ScrollReveal().reveal(target, options);
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
 
-
-ScrollReveal().reveal('.headline');
-ScrollReveal().reveal('.tagline', { delay: 500 });
-ScrollReveal().reveal('.punchline', { delay: 2000 });
+  AOS.init({
+    duration: 1200,
+    });
