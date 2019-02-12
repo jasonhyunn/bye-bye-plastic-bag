@@ -545,7 +545,7 @@ h5 {
 
 .testimonial {
   background-image: url("images/testimonials/testimonial-background.png");
-  height: 1000px;
+  height: 1150px;
   width: 100%;
   background-size: cover;
   padding: 50px 0px 0px 0px;
@@ -602,6 +602,7 @@ h5 {
 /* SPONSOR STYLE */
 
 .sponsor-row {
+  margin-top: -150px;
   padding: 80px 0px 20px 0px;
 }
 
