@@ -1102,6 +1102,11 @@ h5 {
 
 /* SPONSORS */
 
+.sponsor-row {
+  margin-top: 0px;
+  padding: 50px 0px 20px 0px;
+}
+
 .card-img-top-sponsors {
   max-width: 50px;
   max-height: 15px;
@@ -1507,6 +1512,12 @@ margin-left: -30px;
 }
 
 /* SPONSORS */
+
+
+.sponsor-row {
+  margin-top: 0px;
+  padding: 80px 0px 20px 0px;
+}
 
 .card-img-top-sponsors {
 max-width: 110px;
