@@ -1,3 +1,54 @@
+/* HERO VIDEO STYLE */
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
 /* FONT STYLE */
 
 h1 {
@@ -120,7 +171,7 @@ h5 {
 .navbar {
   background-color: transparent;
   margin: 0px 0px 0px 0px;
-  padding: 10px 60px 10px 60px;
+  padding: 30px 60px 10px 60px;
 }
 
 /* BUTTON STYLE */
@@ -250,12 +301,13 @@ h5 {
 
 .large-header {
     text-align: center;
-    margin: 90px 0px 0px 0px;
+    margin: 150px 0px 0px 0px;
 }
 
 .large-header i {
-  margin: 180px 0px 0px 0px;
-  font-size: 25px;
+  margin: 130px 0px 0px 0px;
+  font-size: 30px;
+  color: white;
 }
 
 /* ----------------------------------------------
@@ -759,6 +811,16 @@ h5 {
     height: 667px;
   }
 
+/* BACKGROUND HERO VIDEO */
+
+  header {
+    height: 667px;
+  }
+  
+  header video {
+    min-width: 100%;
+    height: 667px;
+  }
 
 /* NAVBAR */
 
@@ -770,7 +832,7 @@ h5 {
   .navbar {
     background-color: white;
     margin: -20px 0px 0px 0px;
-    padding: 10px 30px 10px 40px;
+    padding: 30px 30px 10px 40px;
 
   }
   
@@ -815,14 +877,14 @@ h5 {
   }
 
   .large-header i {
-    margin-top: 180px;
+    margin-top: 130px;
     font-size: 30px;
   }
  
   /* OUR MISSION */
   
   .our-mission {
-    margin: 0px 0px 60px 0px;
+    margin: 60px 0px 60px 0px;
     padding: 10px 0px 10px 0px;
   }
   
@@ -1186,6 +1248,9 @@ h5 {
 
 
 
+
+
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
@@ -1203,6 +1268,18 @@ h5 {
   height: 667px;
 }
 
+/* BACKGROUND HERO VIDEO */
+
+header {
+  height: 1024px;
+}
+
+header video {
+  min-width: 100%;
+  height: 1024px;
+}
+
+
 /* NAVBAR */
 
 .navbar-brand img {
@@ -1212,7 +1289,7 @@ h5 {
 .navbar {
   background-color: white;
   margin: -20px 0px 0px 0px;
-  padding: 10px 60px 10px 60px;
+  padding: 30px 60px 10px 60px;
 }
 
 .btn-link {
@@ -1252,18 +1329,18 @@ h5 {
 
 .large-header {
   text-align: center;
-  margin: 120px 0px 0px 0px;
+  margin: 280px 0px 0px 0px;
 }
 
-#large-header i {
-  margin: 180px 0px 0px 0px;
-  font-size: 25px;
+.large-header i {
+  margin: 250px 0px 0px 0px;
+  font-size: 30px;
 }
 
 /* OUR MISSION */
 
 .our-mission {
-  margin: 0px 0px 50px 0px;
+  margin: 50px 0px 50px 0px;
   padding: 10px 0px 10px 0px;
 }
 
