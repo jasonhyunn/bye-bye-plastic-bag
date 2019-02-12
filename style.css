@@ -732,7 +732,7 @@ h5 {
 .btn-footer-startateam {
   color: white;
   background-color: #EC1668;
-  padding: 8px 30px 8px 30px;
+  padding: 8px 37px 8px 37px;
   border: none;
   display: inline-block;
   font-size: 16px;
@@ -744,7 +744,7 @@ h5 {
 .btn-footer-startateam:hover {
   color: white;
   background-color: rgb(230, 103, 152);
-  padding: 8px 30px 8px 30px;
+  padding: 8px 37px 8px 37px;
   border: none;
   display: inline-block;
   font-size: 16px;
@@ -776,7 +776,6 @@ h5 {
 .container .footer-copyright {
   padding: 80px 0px 0px 0px;
 }
-
 
 
 
@@ -1251,6 +1250,9 @@ h5 {
 
 
 
+
+
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
@@ -1552,12 +1554,12 @@ font-size: 12px;
 }
 
 .btn-footer-startateam {
-padding: 8px 16px 8px 16px;
+padding: 8px 20px 8px 20px;
 font-size: 12px;
 }
 
 .btn-footer-startateam:hover {
-padding: 8px 16px 8px 16px;
+padding: 8px 32px 8px 32px;
 font-size: 12px;
 }
 
